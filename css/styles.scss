@@ -1,0 +1,195 @@
+$lt-gray: #ddd;
+$backgroud-light: #f6f6f6;
+$backgroud-pale: #f6f6f6;
+
+
+
+@mixin zero-margin($pad-up-dn, $pad-left-right){
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-left-right;
+}
+
+.row-header{
+    @include zero-margin(0px, 0px);
+}
+
+.row-content{
+    @include zero-margin(50px, 0px);
+    min-height: 400px;
+}
+
+.img-r{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.footer{
+    background-color: $backgroud-pale;
+    @include zero-margin(30px, 0px);
+}
+
+.second-container{
+    background-color: $backgroud-light;
+    background-size: cover;
+    .p2{
+        background-color: floralwhite;
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+        border-left: 1px solid $lt-gray;
+        border-right: 1px solid $lt-gray;
+        border-bottom: 1px solid $lt-gray;
+    }
+    .btn{
+        color: floralwhite;
+    }
+}
+
+.btn-red{
+    background-color: #f32853;
+    color: floralwhite;
+}
+
+.btn-black{
+    background-color: #323037;
+    color: floralwhite;    
+}
+
+.fourth-container{
+    color: floralwhite;
+    background-image: url('https://images.pexels.com/photos/957002/berchtesgaden-alpine-watzmann-berchtesgaden-national-park-957002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    .btn{
+        background-color: #f32853;
+    }
+}
+
+.head-nav{
+    font-weight: bold;
+    color: floralwhite;
+}
+
+.head-body{
+    font-weight: bold;
+}
+
+.jumbotron-h{
+    @include zero-margin(100px, 30px);
+    background-image: url('https://images.pexels.com/photos/3286807/pexels-photo-3286807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    color: floralwhite;
+    .head{
+        font-weight: bold;
+        color: floralwhite;
+    }
+    .btn{
+        color: floralwhite;
+        background-color: #f32853;
+    }
+}
+
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+.navbar-h{
+    background-image: url('https://images.pexels.com/photos/3286807/pexels-photo-3286807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-image: 100px;
+    color: floralwhite;
+}
+
+.tab-content{
+    border-left: 1px solid $lt-gray;
+    border-right: 1px solid $lt-gray;
+    border-bottom: 1px solid $lt-gray;
+    padding: 10px;
+}
+
+.flex-list {
+    position: relative;
+    margin: 1em;
+    overflow: hidden;
+    ul {
+        list-style:none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: -1px;
+
+        li 
+        {
+            flex-grow: 1;
+            flex-basis: auto;
+            margin: .25em 0;
+            padding: 0 1em;
+            text-align: center;
+            border-left: 1px solid #bfc0c3;
+        }
+        li:first-child{
+            border-left: none;
+        }
+    }
+}
+
+
+.nav-gen{
+    background-color: #ffffff;
+    color: #4e4b4a;
+    border-bottom: 1px ridge;
+}
+
+.head-nav-gen{
+    font-weight: bold;
+    color: #4e4b4a;
+}
+
+.jumbotron-g{
+    @include zero-margin(50px, 30px);
+    padding-bottom: 0px;
+    background-color: #ffffff;
+    color: #4e4b4a;
+    .head{
+        font-weight: bold;
+        color: #4e4b4a;
+    }
+}
+
+.modal{
+    .modal-header{
+        background-image: url('https://images.pexels.com/photos/3286807/pexels-photo-3286807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); 
+        color: floralwhite;
+        .close{
+            color: floralwhite;
+        }
+    }
+    .modal-body{
+        background: $backgroud-light;
+    }
+}
+
+.row-content-e{
+    @include zero-margin(0px, 0px);
+    border-bottom: 1px ridge;
+    min-height: 50px;
+    padding-top: 20px;
+}
+
+.head-ele{
+    font-weight: bold;
+}
+
+.bq-e{
+    border-left: 3px solid;
+    border-color: $lt-gray; 
+    padding-left: 30px;
+}
+
+.pre-for{
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px ridge;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}

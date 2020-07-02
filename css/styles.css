@@ -1,0 +1,152 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  min-height: 400px; }
+
+.img-r {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; }
+
+.footer {
+  background-color: #f6f6f6;
+  margin: 0px auto;
+  padding: 30px 0px; }
+
+.second-container {
+  background-color: #f6f6f6;
+  background-size: cover; }
+  .second-container .p2 {
+    background-color: floralwhite;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; }
+  .second-container .btn {
+    color: floralwhite; }
+
+.btn-red {
+  background-color: #f32853;
+  color: floralwhite; }
+
+.btn-black {
+  background-color: #323037;
+  color: floralwhite; }
+
+.fourth-container {
+  color: floralwhite;
+  background-image: url("https://images.pexels.com/photos/957002/berchtesgaden-alpine-watzmann-berchtesgaden-national-park-957002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); }
+  .fourth-container .btn {
+    background-color: #f32853; }
+
+.head-nav {
+  font-weight: bold;
+  color: floralwhite; }
+
+.head-body {
+  font-weight: bold; }
+
+.jumbotron-h {
+  margin: 0px auto;
+  padding: 100px 30px;
+  background-image: url("https://images.pexels.com/photos/3286807/pexels-photo-3286807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  color: floralwhite; }
+  .jumbotron-h .head {
+    font-weight: bold;
+    color: floralwhite; }
+  .jumbotron-h .btn {
+    color: floralwhite;
+    background-color: #f32853; }
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 29px; }
+
+.navbar-h {
+  background-image: url("https://images.pexels.com/photos/3286807/pexels-photo-3286807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  border-image: 100px;
+  color: floralwhite; }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
+.flex-list {
+  position: relative;
+  margin: 1em;
+  overflow: hidden; }
+  .flex-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -1px; }
+    .flex-list ul li {
+      flex-grow: 1;
+      flex-basis: auto;
+      margin: .25em 0;
+      padding: 0 1em;
+      text-align: center;
+      border-left: 1px solid #bfc0c3; }
+    .flex-list ul li:first-child {
+      border-left: none; }
+
+.nav-gen {
+  background-color: #ffffff;
+  color: #4e4b4a;
+  border-bottom: 1px ridge; }
+
+.head-nav-gen {
+  font-weight: bold;
+  color: #4e4b4a; }
+
+.jumbotron-g {
+  margin: 0px auto;
+  padding: 50px 30px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+  color: #4e4b4a; }
+  .jumbotron-g .head {
+    font-weight: bold;
+    color: #4e4b4a; }
+
+.modal .modal-header {
+  background-image: url("https://images.pexels.com/photos/3286807/pexels-photo-3286807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  color: floralwhite; }
+  .modal .modal-header .close {
+    color: floralwhite; }
+
+.modal .modal-body {
+  background: #f6f6f6; }
+
+.row-content-e {
+  margin: 0px auto;
+  padding: 0px 0px;
+  border-bottom: 1px ridge;
+  min-height: 50px;
+  padding-top: 20px; }
+
+.head-ele {
+  font-weight: bold; }
+
+.bq-e {
+  border-left: 3px solid;
+  border-color: #ddd;
+  padding-left: 30px; }
+
+.pre-for {
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px ridge;
+  border-radius: 5px;
+  background-color: #f7f7f7; }

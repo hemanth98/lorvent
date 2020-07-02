@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
+
+    <title>Lorvent First Task</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top navbar-h">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>    
+            <span class="navbar-text"><span class="head-nav">FIRST TASK </span>FOR FRESHERS</span>        
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./generic.html">GENERIC</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./elements.html">ELEMENTS</a></li>
+                </ul>                
+            </div>                
+        </div>
+    </nav>
+
+    <div id="getintouchModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase">Get in Touch</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <label for="firstname" class="col-md-1 col-form-label">First Name</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" id="firstname" name="firstname"
+                                    placeholder="First Name">
+                            </div>
+                            <div class="col-md-1"></div>
+                            <label for="lastname" class="col-md-1 col-form-label">Last Name</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" id="lastname" name="lastname"
+                                    placeholder="Last Name">
+                            </div> 
+                        </div>
+                        <div class="form-row">
+                            <label for="telnum" class="col-12 col-md-1 col-form-label">Contact Tel.</label>
+                            <div class="col-5 col-md-2">
+                                <input type="tel" class="form-control" id="areacode" name="areacode"
+                                    placeholder="Area Code">
+                            </div>
+                            <div class="col-7 col-md-4">
+                                <input type="tel" class="form-control" id="telnum" name="telnum"
+                                    placeholder="Tel. Number">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <label for="emailid" class="col-md-1 col-form-label">Email</label>
+                            <div class="col-md-4">
+                                <input type="email" class="form-control" id="emailid" name="emailid"
+                                    placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-4  offset-md-1">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                    <label class="form-check-label" for="approve">
+                                        <strong>May we contact you?</strong>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <select class="form-control">
+                                    <option>Tel.</option>
+                                    <option>Email</option>
+                                </select>
+                            </div>
+                            <div class="col-12"></br></div>
+                        </div>
+                        <div class="form-row">
+                            <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                            <div class="col-md-5">
+                                <textarea class="form-control" id="feedback" name="feedback" rows="3"></textarea>
+                            </div>
+                            <div class="col-12"></br></div>
+                        </div>
+                        <div class="col-12 col-sm-6 offset-sm-2">
+                            <button type="button" class="btn btn-secondary btn-sm-2 ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm-2 ml-1">Send Feedback</button>
+                        </div>                                   
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="jumbotron jumbotron-h">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm text-center align-self-center">
+                    <h1 class="head text-uppercase">Lorvent</h1>
+                    <p class="text-uppercase">Utilising google font "Raleway"</br> and font awesome icons where needed</p>
+                </div>
+            </div>
+            </br>
+            <div class="row row-header">
+                <div class="col-sm-5"></div>                
+                <div class="col-12 col-sm-2 text-center align-self-center">                    
+                    <a role="button" class="btn btn-block nav-link text-uppercase" href="#start">Get Started</a>                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="row row-content align-items-center"  id="start">
+        <div class="col-12 col-sm-2 order-sm-first"></div>
+        <div class="col-12 col-sm-4 order-sm-first" > 
+            <h2 class="head-body text-uppercase">Maecenas</br>Luctus Letus</h2>
+            <p class="text-uppercase">Featuring Weekend Grand Buffet</br> Offer for everyone</p>
+        </div>
+        <div class="col order-sm-last col-sm-4">
+            <div class="media">                    
+                <div class="media-body">
+                    <p>Instrument cultivated alteration any favourable expression law far nor. Both new like tore but year. An from mean on with when sing pain. 
+                        </br></br> Inhabit her manners adapted age certain.
+                         Debating offended at branched striking be subjects.As absolute is by amounted repeated entirely ye returned.</p>
+                </div>                    
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-content align-items-center second-container">
+        <div class="col-12 col-sm-12 text-center align-self-center">
+            <h2 class="head-body text-uppercase">fusce ultrices fringilla</h2>
+            <p class="text-uppercase">maecenas vitae tellus feugiat eleifend</p>
+        </div>
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-6">
+                <img class="col d-flex align-items-center justify-content-center" src="img/pexels-photo-3762303.jpeg" alt="p1">
+                <p class="head-body text-uppercase p2">lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="col-6">
+                    <img class="col d-flex align-items-center justify-content-center" src="img/pexels-photo-734773.jpeg" alt="p2">
+                    <p class="head-body text-uppercase p2">lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="col-sm-4"></div>
+                <div class="col-12 col-sm-2 text-center align-self-center btn">                    
+                    <a role="button" class="btn btn-block btn-red nav-link text-uppercase">Nulla Luctus</a>                    
+                </div>
+                <div class="col-12 col-sm-2 text-center align-self-center btn">                    
+                    <a role="button" class="btn btn-block btn-black nav-link text-uppercase">Sed Vulputate</a>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-12 text-center align-self-center">
+            <h2 class="head-body text-uppercase">mauris vulputate dolor</h2>
+            <p class="text-uppercase">feugiat sed lorem ipsum magna</p>
+        </div>
+        <div class="col-sm-12"></br></div>
+        <div class="col-sm-1"></div>
+        <div class="col-12 col-sm-3 text-right">
+            <h5 class="head-body text-uppercase">lorem ipsum</h5>
+            <p class="text-uppercase">lorem ipsum dolor sit</p>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+        </div>
+        <div class="col-12 col-sm-2">
+            <img class="col align-items-center justify-content-center img-r d-flex" src="img/pexels-photo-1820563.jpeg" alt="p3">
+        </div>
+        <div class="col-12 col-sm-2">
+            <img class="col align-items-center justify-content-center img-r d-flex" src="img/pexels-photo-239520.jpeg" alt="p4">
+        </div>
+        <div class="col-12 col-sm-3 text-left">
+            <h5 class="head-body text-uppercase">Finibus Bonorum</h5>
+            <p class="text-uppercase">Finibus Bonorum et Malorumt</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        </div>
+        <div class="col-sm-12"></br></div>
+        <div class="col-sm-1"></div>
+        <div class="col-12 col-sm-3 text-right">
+            <h5 class="head-body text-uppercase">righteous indignation</h5>
+            <p class="text-uppercase">righteous indignation by H. Rackham</p>
+            <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores aliasdoloribus asperiores repellat.</p>
+        </div>
+        <div class="col-12 col-sm-2">
+            <img class="col align-items-center justify-content-center img-r d-flex" src="img/pexels-photo-734773.jpeg" alt="p5">
+        </div>
+        <div class="col-12 col-sm-2">
+            <img class="col align-items-center justify-content-center img-r d-flex" src="img/pexels-photo-67517.jpeg" alt="p6">
+        </div>
+        <div class="col-12 col-sm-3 text-left">
+            <h5 class="head-body text-uppercase">Neque porro</h5>
+            <p class="text-uppercase">Neque porro quisquam</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div> 
+    
+    <div class="row row-content align-items-center fourth-container">
+        <div class="col-12 text-center align-self-center">
+            <h1 class="head text-uppercase">aenean elementum ligula</h1>
+            <p class="text-uppercase">feugiat sed lorem ipsum magna</p>
+        </div>   
+        <div class="col-sm-5"></div>                
+        <div class="col-12 col-sm-2 text-center align-self-center">                    
+            <a role="button" class="btn btn-block nav-link text-uppercase" id="getintouch">Get in touch</a>                    
+        </div>
+    </div>
+   
+    
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-12 align-self-center">
+                <div class="text-center">
+                    <a href="http://www.facebook.com/"><i class="fa fa-facebook fa-3x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://twitter.com/"><i class="fa fa-twitter fa-3x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.instagram.com/"><i class="fa fa-instagram fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <div class="flex-list">
+                    <ul>
+                        <li>© Hemanth</li>
+                        <li>Font: Raleway</li>
+                        <li>Images: Pexels</li>
+                    </ul>
+                </div>                
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
