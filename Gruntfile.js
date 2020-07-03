@@ -68,7 +68,7 @@ module.exports =function(grunt){
                     expand: true,
                     dor: true,
                     cwd: './',
-                    src: ['img/*.{png,jpg,gif}'],
+                    src: ['img/*.{png,jpg,gif,jpeg}'],
                     dest: 'dist/'
                 }]
             }
@@ -76,7 +76,7 @@ module.exports =function(grunt){
         useminPrepare: {
             foo: {
                 dest: 'dist',
-                src: ['contactus.html','aboutus.html','index.html']
+                src: ['elements.html','generic.html','index.html']
             },
             options: {
                 flow: {
@@ -126,7 +126,7 @@ module.exports =function(grunt){
             }
         },
         usemin: {
-            html: ['dist/contactus.html', 'dist/aboutus.html', 'dist/index.html'],
+            html: ['dist/elements.html', 'dist/generic.html', 'dist/index.html'],
             options: {
                 assetsDirs: ['dist','dist/css','dist/js']
             }
@@ -138,8 +138,8 @@ module.exports =function(grunt){
                 },
                 files: {
                     'dist/index.html':'dist/index.html',
-                    'dist/contactus.html': 'dist/contactus.html',
-                    'dist/aboutus.html':'dist/aboutus.html'
+                    'dist/elements.html': 'dist/elements.html',
+                    'dist/generic.html':'dist/generic.html'
                 }
             }
         }
