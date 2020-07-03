@@ -193,3 +193,79 @@ body{
     border-radius: 5px;
     background-color: #f7f7f7;
 }
+
+.carousel{
+    .carousel-item{
+        height: 500px;
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 500px;
+        }
+    }
+}
+#carouselButton{
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.btn-e{
+    font-weight: bold; 
+    border:1px solid #dfdfdf; 
+    border-radius: 5px;
+}
+
+.pad-bg{
+    padding: 10px 30px 10px 30px;
+    font-size: 90%; 
+}
+
+.pad-sm{
+    padding: 3px 20px 3px 20px;
+    font-size: 70%; 
+}
+
+.table-borderless th {
+    border: 0;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.forms{
+    input, textarea, select{
+        background-color: #dfdfdf;
+        color: #4e4b4a;
+    }
+}
+
+//.img-rounded{border-radius:6px}
+
+.img-big{
+    max-height: 400px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.img-sm{
+    width: 410px;
+    max-height: 370px;
+    border-radius: 6px;
+}
+
+.column {
+    float: left;
+    width: 32%;
+}
+
+.img-left{
+    float: left;
+}
+
+.img-right{
+    float: right;
+}

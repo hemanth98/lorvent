@@ -90,8 +90,299 @@
                 printf("Quotient = %d\n", quotient);
                 printf("Remainder = %d", remainder); </pre></code>
         </div>
-        <div class="col-12">
+        <div class="col-sm-6">
             <h5 class="head-body text-uppercase">lists</h5>
+            <h6 class="head-body text-uppercase">unordered</h6>
+            <ul>
+                <li>Sed ut perspiciatis</li>
+                <li>Lorem ipsum dolor </li>
+                <li>beatae vitae dicta</li>
+            </ul>
+            <h6 class="head-body text-uppercase">alternate</h6>
+            <ul>
+                <li style="border-bottom: 1px ridge; list-style-type: none; padding-top:10px;">Sed ut perspiciatis</li>
+                <li style="border-bottom: 1px ridge; list-style-type: none;  padding-top:10px;">Lorem ipsum dolor </li>
+                <li style="list-style-type: none;  padding-top:10px;">beatae vitae dicta</li>
+            </ul>
+        </div>
+        <div class="col-sm-6">
+            <h6 class="head-body text-uppercase">ordered</h6>
+            <ol>
+                <li>Sed ut perspiciatis</li>
+                <li>Lorem ipsum dolor </li>
+                <li>beatae vitae dicta</li>
+                <li>voluptatem sequi nesciunt</li>
+                <li>minima veniam</li>
+                <li>exercitationem ullam</li>
+            </ol>
+            <h6 class="head-body text-uppercase">icons</h6>
+            <i class="fa fa-twitter fa-2x" style="padding-right: 10px; color: #f32853;"></i>
+            <i class="fa fa-facebook fa-2x" style="padding-right: 10px; color: #f32853;"></i>
+            <i class="fa fa-instagram fa-2x" style="padding-right: 10px; color: #f32853;"></i>
+            <i class="fa fa-github fa-2x" style="padding-right: 10px; color: #f32853;"></i>
+            <i class="fa fa-tumblr fa-2x" style="padding-right: 10px; color: #f32853;"></i>
+        </div>
+        <div class="col-12">
+            <h6 class="head-body text-uppercase">actions</h6>
+            <!--For the below buttons I am giving inline styles because every button is diffrent and has it's own stlying that's required. There are few common styles that's present, which i have included in the styles.scss file.-->
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #f32853; color: floralwhite; margin-right: 10px;">Special</button>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #323037; color: floralwhite; margin-right: 10px;">Default</button>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #ffffff; color: #323037;">Alternate</button></br></br>
+            <button type="button" class="btn-xs text-uppercase btn-e pad-sm" style="background-color: #f32853; color: floralwhite; margin-right: 10px;">small</button>
+            <button type="button" class="btn-xs text-uppercase btn-e pad-sm" style="background-color: #323037; color: floralwhite; margin-right: 10px;">small</button>
+            <button type="button" class="btn-xs text-uppercase btn-e pad-sm" style="background-color: #ffffff; color: #323037;">small</button></br>
+        </div>
+        <div class="col-sm-1">
+            &nbsp;
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #f32853; color: floralwhite; margin-bottom: 10px;">Vertical</button>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #323037; color: floralwhite; margin-bottom: 10px;">Vertical</button>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #ffffff; color: #323037;">Vertical</button></br></br>
+        </div>
+        <div class="col-sm-1 offset-sm-2">
+            &nbsp;
+            <button type="button" class="btn-xs text-uppercase btn-e pad-sm" style="background-color: #f32853; color: floralwhite; margin-bottom: 5px;">small</button>
+            <button type="button" class="btn-xs text-uppercase btn-e pad-sm" style="background-color: #323037; color: floralwhite; margin-bottom: 5px;">small</button>
+            <button type="button" class="btn-xs text-uppercase btn-e pad-sm" style="background-color: #ffffff; color: #323037;">small</button></br></br>
+        </div>
+        <div class="col-sm-2 offset-sm-2">
+        </br>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #f32853; color: floralwhite; margin-bottom: 10px; width: 150%;">fit</button>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #323037; color: floralwhite; margin-bottom: 10px; width: 150%;">fit</button>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #ffffff; color: #323037; width: 150%;">fit</button></br></br>
+        </div>
+        <div class="col-sm-2 offset-sm-1">
+            &nbsp;
+            <button type="button" class="btn-xs text-uppercase btn-e" style="background-color: #f32853; color: floralwhite; margin-bottom: 5px; font-size: 70%; width: 150%;">small</button>
+            <button type="button" class="btn-xs text-uppercase btn-e" style="background-color: #323037; color: floralwhite; margin-bottom: 5px; font-size: 70%; width: 150%;">small</button>
+            <button type="button" class="btn-xs text-uppercase btn-e" style="background-color: #ffffff; color: #323037; font-size: 70%; width: 150%;">small</button></br></br>
+        </div>
+        <div class="col-12">
+            <h5 class="head-body text-uppercase">table</h5></br>
+            <h6 class="head-body text-uppercase">default</h6>
+            <table class="table table-striped">
+                <thead class="table-borderless">
+                    <tr>
+                        <th>Name</th>
+                        <th>Desciption</th>
+                        <th>Price</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item 1</td>
+                        <td>Maria Anders exercitationem ullam</td>
+                        <td>29.99</td>
+                      </tr>
+                      <tr>
+                        <td>Item 2</td>
+                        <td>Francisco Chang commodo consequat</td>
+                        <td>19.99</td>
+                      </tr>
+                      <tr>
+                        <td>Item 3</td>
+                        <td>Roland Mendel adipiscing elit</td>
+                        <td>29.99</td>
+                      </tr>
+                      <tr>
+                        <td>Item 4</td>
+                        <td>Helen Bennett ipsum quia dolor</td>
+                        <td>19.99</td>
+                      </tr>
+                      <tr>
+                        <td>Item 5</td>
+                        <td>Yoshi Tannamuri autem vel eum iure</td>
+                        <td>29.99</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td>100.00</td>
+                      </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-12">
+            <h5 class="head-body text-uppercase">table</h5></br>
+            <h6 class="head-body text-uppercase">default</h6>
+            <table class="table table-striped">
+                <thead class="table-borderless">
+                    <tr>
+                        <th>Name</th>
+                        <th>Desciption</th>
+                        <th>Price</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-bordered">
+                        <td>Item 1</td>
+                        <td>Maria Anders exercitationem ullam</td>
+                        <td>29.99</td>
+                      </tr>
+                      <tr class="table-bordered">
+                        <td>Item 2</td>
+                        <td>Francisco Chang commodo consequat</td>
+                        <td>19.99</td>
+                      </tr>
+                      <tr class="table-bordered">
+                        <td>Item 3</td>
+                        <td>Roland Mendel adipiscing elit</td>
+                        <td>29.99</td>
+                      </tr>
+                      <tr class="table-bordered">
+                        <td>Item 4</td>
+                        <td>Helen Bennett ipsum quia dolor</td>
+                        <td>19.99</td>
+                      </tr>
+                      <tr class="table-bordered">
+                        <td>Item 5</td>
+                        <td>Yoshi Tannamuri autem vel eum iure</td>
+                        <td>29.99</td>
+                      </tr>
+                      <tr style="border-bottom: none;">
+                        <td></td>
+                        <td></td>
+                        <td>100.00</td>
+                      </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-12">
+            <h5 class="head-body text-uppercase">table</h5>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #f32853; color: floralwhite; margin-right: 10px;">Special</button>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #323037; color: floralwhite; margin-right: 10px;">Default</button>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #ffffff; color: #323037;">Alternate</button></br></br>
+            
+            <button type="button" class="btn-lg text-uppercase btn-e pad-bg" style="background-color: #f32853; color: floralwhite; margin-right: 10px; padding: 15px 35px 15px 35px; font-size: 110%;">Big</button>
+            <button type="button" class="btn text-uppercase btn-e" style="background-color: #323037; color: floralwhite; margin-right: 10px; padding: 10px 30px 10px 30px; font-size: 90%;">Default</button>
+            <button type="button" class="btn-sm text-uppercase btn-e" style="background-color: #ffffff; color: #323037; padding: 5px 20px 5px 20px; font-size: 70%;">Small</button></br></br>
+
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #323037; color: floralwhite; margin-right: 10px; width: 20%;">fit</button>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #ffffff; color: #323037; margin-right: 20px; width: 20%;">fit</button>
+
+            <button type="button" class="btn-xs text-uppercase btn-e" style="background-color: #323037; color: floralwhite; margin-right: 5px; font-size: 70%; width: 20%;">fit + small</button>
+            <button type="button" class="btn-xs text-uppercase btn-e" style="background-color: #ffffff; color: #323037; font-size: 70%; width: 20%;">fit + small</button></br></br>
+
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #f32853; color: floralwhite; margin-right: 10px;"><span class="fa fa-download fa-sm"></span>  icon</button>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #323037; color: floralwhite; margin-right: 10px;"><span class="fa fa-download fa-sm"></span>  icon</button>
+            <button type="button" class="btn text-uppercase btn-e pad-bg" style="background-color: #ffffff; color: #323037;"><span class="fa fa-download fa-sm"></span>  icon</button></br></br>
+
+            <button type="button" class="btn disabled text-uppercase btn-e pad-bg" style="background-color: #b1aeae; color: #ffffff; margin-right: 10px;">Special</button>
+            <button type="button" class="btn disabled text-uppercase btn-e pad-bg" style="background-color: #b1aeae; color: #ffffff; margin-right: 10px;">Default</button>
+            <button type="button" class="btn disabled text-uppercase btn-e pad-bg" style="background-color: #b1aeae; color: #ffffff;">Alternate</button></br></br>
+        </div>
+        <div class="col-12">
+            <h5 class="head-body text-uppercase">form</h5>
+            <form class="forms">
+                <div class="form-row">
+                    <div class="col-sm-6" style="margin-bottom: 10px;">
+                        <input type="text" class="form-control" id="firstname" name="firstname"
+                        placeholder="Name">
+                    </div>                    
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="email" name="email"
+                        placeholder="Email">
+                    </div>
+                    <div class="col-12" style="margin-bottom: 10px;">
+                        <select class="form-control">
+                            <option selected>-Category-</option>
+                            <option>Fresher</option>
+                            <option>Experienced</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-sm-10" style="margin-bottom: 10px;">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+                            <label class="form-check-label" for="inlineRadio1" >Low Priority</label>
+                        </div>
+                        <div class="form-check form-check-inline offset-sm-4">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Normal Priority</label>
+                        </div>
+                        <div class="form-check form-check-inline offset-sm-4">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                            <label class="form-check-label" for="inlineRadio3">High Priority</label>
+                        </div>    
+                    </div>
+                    <div class="col-md-6" style="margin-bottom: 10px;">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                            <label class="form-check-label" for="approve">Email me a copy of this message</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="approve" id="approve" value="" checked>
+                            <label class="form-check-label" for="approve">I am a human and not a robot</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-12" style="margin-bottom: 10px;">
+                        <textarea class="form-control" id="feedback" name="feedback" rows="8" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="col-12" style="margin-bottom: 10px;">
+                        <button type="submit" class="btn text-uppercase btn-e pad-bg" style="background-color: #f32853; color: floralwhite; margin-right: 10px;">Send Message</button>
+                        <button type="reset" class="btn text-uppercase btn-e pad-bg" style="background-color: #323037; color: floralwhite; margin-right: 10px;">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-12">
+        </br><h5 class="head-body text-uppercase">image</h5>
+            <h6 class="head-body text-uppercase" style="font-size: 90%;">fit</h6>
+            <div class="col">
+                <img class="d-flex img-big img-rounded" style="margin-bottom: 10px;" src="img/pexels-photo-239520.jpeg" alt="p1">
+            </div>
+            <div class="col column">
+                <img class="img-sm" src="img/pexels-photo-3762303.jpeg" alt="p2">
+            </div>
+            <div class="col column">
+                <img class="img-sm" src="img/pexels-photo-618833.jpeg" alt="p3">
+            </div>
+            <div class="col column">
+                <img class="img-sm" src="img/pexels-photo-3762303.jpeg" alt="p4">
+            </div>            
+        </div>
+        <div class="col-12">
+            <div class="col column">
+                <img class="img-sm" style="margin-top: 10px;" src="img/pexels-photo-618833.jpeg" alt="p3">
+            </div>
+            <div class="col column">
+                <img class="img-sm" style="margin-top: 10px;" src="img/pexels-photo-3762303.jpeg" alt="p4">
+            </div>
+            <div class="col column">
+                <img class="img-sm" style="margin-top: 10px;" src="img/pexels-photo-618833.jpeg" alt="p3">
+            </div>            
+        </div>
+        <div class="col-12">
+            <div class="col column">
+                <img class="img-sm" style="margin-top: 10px;" src="img/pexels-photo-3762303.jpeg" alt="p2">
+            </div>
+            <div class="col column">
+                <img class="img-sm" style="margin-top: 10px;" src="img/pexels-photo-618833.jpeg" alt="p3">
+            </div>
+            <div class="col column">
+                <img class="img-sm" style="margin-top: 10px;" src="img/pexels-photo-3762303.jpeg" alt="p4">
+            </div>            
+        </div>
+        <div class="col-12">
+        </br><h6 class="head-body text-uppercase" style="font-size: 90%;">left and right</h6>
+            <div>
+                <img class="img-left" src="img/pexels-photo-67517.jpeg" alt="Pineapple" style="width:150px;height:150px; border-radius: 6px; margin-right: 10px; margin-bottom: 10px;">
+                <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, 
+                    vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum 
+                    augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit
+                        risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                         illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>  
+            </div></br>
+            <div>
+                <img class="img-right" src="img/pexels-photo-3762303.jpeg" alt="Pineapple" style="width:150px;height:150px; border-radius: 6px; margin-left: 10px; margin-bottom: 50px;">
+                <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, 
+                    vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum 
+                    augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit
+                        risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab 
+                        illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>  
+            </div>
         </div>
     </div>
 
@@ -99,8 +390,8 @@
         <div class="row">
             <div class="col-12 align-self-center">
                 <div class="text-center">
-                    <a href="http://www.facebook.com/"><i class="fa fa-facebook fa-3x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://twitter.com/"><i class="fa fa-twitter fa-3x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.facebook.com/"><i class="fa fa-facebook fa-3x" style="margin-right: 60px; margin-left: 40px;"></i></a>
+                    <a href="http://twitter.com/"><i class="fa fa-twitter fa-3x" style="margin-right: 60px;"></i></a>
                     <a href="http://www.instagram.com/"><i class="fa fa-instagram fa-3x"></i></a>
                 </div>
             </div>
